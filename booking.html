@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Consultation - NR Consultancy</title>
+    <meta name="description"
+        content="Book a consultation with NR Consultancy for ESIC, EPFO, and GST compliance services.">
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css?v=3">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Page specific overrides for full height centering */
+        body {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            /* Lock scroll for focused experience */
+        }
+
+        .hero-bg {
+            position: fixed;
+            /* Fixed background */
+        }
+
+        .grain-overlay {
+            z-index: 1;
+        }
+
+        .booking-card {
+            background: var(--bg-card);
+            border: 1px solid var(--accent-primary);
+            padding: 40px;
+            border-radius: 20px;
+            width: 90%;
+            max-width: 500px;
+            position: relative;
+            box-shadow: 0 0 50px rgba(0, 240, 255, 0.15);
+            z-index: 10;
+            backdrop-filter: blur(20px);
+            animation: fadeUp 0.8s ease-out;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: var(--text-muted);
+            font-size: 1.2rem;
+            cursor: pointer;
+            transition: var(--transition-fast);
+            text-decoration: none;
+        }
+
+        .close-btn:hover {
+            color: var(--accent-primary);
+            transform: rotate(90deg);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Background (Reused from other pages) -->
+    <div class="hero-bg">
+        <div class="hero-overlay-gradient"></div>
+    </div>
+    <div class="grain-overlay"></div>
+
+    <!-- Booking Card -->
+    <div class="booking-card">
+        <a href="index.html" class="close-btn"><i class="fas fa-times"></i></a>
+        <h2 class="modal-title">Book <span class="text-gradient">Consultation</span></h2>
+        <p style="text-align: center; color: var(--text-muted); margin-bottom: 20px;">Fill the form to start a WhatsApp
+            chat with our experts.</p>
+
+        <form id="bookingFormPage">
+            <div class="form-group">
+                <label>Your Name</label>
+                <input type="text" class="form-input" id="pageName" placeholder="John Doe" required autofocus>
+            </div>
+            <div class="form-group">
+                <label>Mobile Number</label>
+                <input type="tel" class="form-input" id="pageMobile" placeholder="+91 98765 43210" required>
+            </div>
+            <div class="form-group">
+                <label>Purpose of Consultation</label>
+                <select class="form-select" id="pagePurpose">
+                    <option value="General Inquiry">General Inquiry</option>
+                    <option value="ESIC Registration">ESIC Registration/Compliance</option>
+                    <option value="EPFO Services">EPFO Services</option>
+                    <option value="GST Filing">GST Filing</option>
+                    <option value="Payroll Management">Payroll Management</option>
+                    <option value="Business Setup">New Business Setup</option>
+                </select>
+            </div>
+            <button type="submit" class="btn-submit">Start WhatsApp Chat <i class="fab fa-whatsapp"></i></button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
