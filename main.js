@@ -19,10 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (menuToggle) {
         menuToggle.addEventListener('click', () => {
-            // Check if we need to add a class for mobile menu visibility
-            // The CSS didn't explicitly define a '.nav-links.active' state for mobile
-            // taking a safer bet by toggling display style for now or assuming CSS will handle it
-            // Let's add the class and ensure CSS supports it (I might need to patch styling if missed)
             navLinks.classList.toggle('active');
 
             // Simple mobile menu fix if not in CSS:
@@ -42,54 +38,24 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // --- Consultation Modal Logic ---
-    const modal = document.getElementById('bookingModal');
-    const closeBtn = document.getElementById('closeModal');
-    const bookingForm = document.getElementById('bookingForm');
+    // --- Booking Page Logic ---
+    // Only runs if the booking form exists (i.e., on booking.html)
+    const bookingFormPage = document.getElementById('bookingFormPage');
 
-    // Open Modal on "Book Consultation" clicks
-    // Note: We use e.preventDefault() to stop the default link behavior
-    const bookBtns = document.querySelectorAll('.nav-cta, .btn-primary');
-
-    bookBtns.forEach(btn => {
-        if (btn.innerText.includes('Book') || btn.innerText.includes('Consultation')) {
-            btn.addEventListener('click', (e) => {
-                e.preventDefault();
-                modal.classList.add('active');
-            });
-        }
-    });
-
-    // Close Modal
-    if (closeBtn) {
-        closeBtn.addEventListener('click', () => {
-            modal.classList.remove('active');
-        });
-    }
-
-    // Close on clicking outside
-    window.addEventListener('click', (e) => {
-        if (e.target === modal) {
-            modal.classList.remove('active');
-        }
-    });
-
-    // Handle Form Submit
-    if (bookingForm) {
-        bookingForm.addEventListener('submit', (e) => {
+    if (bookingFormPage) {
+        bookingFormPage.addEventListener('submit', (e) => {
             e.preventDefault();
 
-            const name = document.getElementById('userName').value;
-            const mobile = document.getElementById('userMobile').value;
-            const purpose = document.getElementById('userPurpose').value;
+            const name = document.getElementById('pageName').value;
+            const mobile = document.getElementById('pageMobile').value;
+            const purpose = document.getElementById('pagePurpose').value;
 
             // Format WhatsApp Message
-            const message = `*New Lead from Website*%0A%0AName: ${name}%0AMobile: ${mobile}%0APurpose: ${purpose}`;
+            const message = `*New Consultation Request*%0A%0AName: ${name}%0AMobile: ${mobile}%0APurpose: ${purpose}`;
             const whatsappUrl = `https://wa.me/919182727927?text=${message}`;
 
             // Redirect
-            window.open(whatsappUrl, '_blank');
-            modal.classList.remove('active');
+            window.location.href = whatsappUrl;
         });
     }
 
@@ -109,7 +75,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }, observerOptions);
 
     // Elements to animate
-    const animatedElements = document.querySelectorAll('.service-card, .section-title, .about-preview, .cta-section');
+    const animatedElements = document.querySelectorAll('.service-card, .section-title, .about-preview, .cta-section, .booking-card');
 
     animatedElements.forEach(el => {
         el.style.opacity = '0';
