@@ -85,10 +85,9 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: -2;
     object-fit: cover;
-    background: url('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg') no-repeat center center/cover;
-    /* Constructive Fallback */
+    z-index: -1;
+    /* Moved up from -2 */
 }
 
 .overlay {
@@ -98,7 +97,26 @@ body {
     width: 100%;
     height: 100%;
     background-color: var(--overlay-color);
-    z-index: -1;
+    z-index: 0;
+    /* Content sits above at 1+ */
+}
+
+/* Ensure Body Background doesn't cover video */
+body {
+    background-color: #1a1a1a;
+    /* Fallback */
+}
+
+/* Content Layering */
+.hero,
+nav,
+header,
+.static-content,
+section,
+.official-links,
+.whatsapp-btn {
+    position: relative;
+    z-index: 5;
 }
 
 .static-content {
