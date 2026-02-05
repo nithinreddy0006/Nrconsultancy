@@ -5,115 +5,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Testimonials - NR Consultancy</title>
+    <meta name="description"
+        content="Read 5-star reviews from our happy clients. Discover why businesses trust NR Consultancy.">
+    <!-- Styles -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-
-    <!-- Background Video: Happy People/Office -->
-    <video autoplay muted loop playsinline class="video-bg">
-        <source src="https://videos.pexels.com/video-files/3129671/3129671-hd_1920_1080_30fps.mp4" type="video/mp4">
-    </video>
-    <div class="overlay"></div>
-
-    <nav>
-        <a href="index.html" class="logo" style="text-decoration:none;">NR Consultancy</a>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html">Services</a></li>
-            <li><a href="clients.html">Clients</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="testimonials.html" class="active">Testimonials</a></li>
-        </ul>
+    <nav id="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">NR <span>CONSULTANCY</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html">Services</a>
+                <a href="clients.html">Clients</a>
+                <a href="testimonials.html" class="active">Testimonials</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <a href="contact.html" class="nav-cta">Book Consultation</a>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
     </nav>
 
-    <div class="official-links">
-        <a href="https://www.esic.in" target="_blank" class="official-btn">ESIC Portal</a>
-        <a href="https://www.epfindia.gov.in" target="_blank" class="official-btn">EPFO Portal</a>
-        <a href="https://www.gst.gov.in" target="_blank" class="official-btn">GST Portal</a>
-    </div>
+    <header class="hero" style="height: 50vh;">
+        <div class="hero-bg">
+            <video autoplay muted loop playsinline class="video-bg" style="opacity: 0.3;"
+                poster="assets/video/video-poster.jpg">
+                <source src="assets/video/board-meeting.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay-gradient"></div>
+        </div>
+        <div class="container hero-content">
+            <h1 class="hero-title">Client <span class="text-gradient">Voices</span></h1>
+            <p class="hero-desc">Don't just take our word for it. Here is what 100+ partners have to say.</p>
+        </div>
+    </header>
 
-    <div class="static-content">
-        <h1>Client Success Stories</h1>
-        <p>5-Star feedback from our partners in Logistics & Healthcare.</p>
-    </div>
+    <section class="section-padding">
+        <div class="container">
+            <div class="services-grid">
 
-    <!-- Magazine Style Services Feed -->
-    <section id="services-feed" class="magazine-layout">
-
-        <!-- Article 1 -->
-        <article class="magazine-article reveal-on-scroll">
-            <div class="article-image">
-                <img src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png" alt="Client 1">
-            </div>
-            <div class="article-content">
-                <span class="article-category">Manufacturing Sector</span>
-                <h2>"Exceptional Service"</h2>
-                <p><span class="drop-cap">"</span>NR Consultancy has streamlined our entire payroll and EPF process.
-                    Their proactive approach to compliance has saved us countless hours and protected us from penalties.
-                    Highly recommended for any growing business!"</p>
-                <div style="margin-top: 20px; font-style: italic; color: #ddd;">
-                    - Rajesh Kumar, MD<br><span style="color:var(--accent-color); font-size: 0.9rem;">RK Industries
-                        Ltd.</span>
+                <!-- Review 1 -->
+                <div class="service-card">
+                    <div style="color: gold; margin-bottom: 20px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <h3>"Exceptional Service"</h3>
+                    <p style="font-style: italic;">"NR Consultancy has streamlined our entire payroll and EPF process.
+                        Their proactive approach to compliance has saved us countless hours."</p>
+                    <div style="margin-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+                        <strong style="color: var(--text-main);">Rajesh Kumar, MD</strong><br>
+                        <span style="font-size: 0.8rem; color: var(--accent-primary);">RK Industries Ltd.</span>
+                    </div>
                 </div>
-            </div>
-        </article>
 
-        <!-- Article 3: Warehouse -->
-        <article class="magazine-article reveal-on-scroll">
-            <div class="article-image">
-                <i class="fa-solid fa-warehouse"
-                    style="font-size: 8rem; color: #6c757d; filter: drop-shadow(0 5px 15px rgba(108,117,125,0.3));"></i>
-            </div>
-            <div class="article-content">
-                <span class="article-category">Logistics & Warehousing</span>
-                <h2>"5-Star Efficiency"</h2>
-                <div style="color: gold; font-size: 1.2rem; margin-bottom: 15px;">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <!-- Review 2 -->
+                <div class="service-card">
+                    <div style="color: gold; margin-bottom: 20px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <h3>"5-Star Efficiency"</h3>
+                    <p style="font-style: italic;">"Managing compliance for a large logistics chain was a nightmare
+                        until NR Consultancy stepped in. They handled our multi-state warehousing labor laws
+                        flawlessly."</p>
+                    <div style="margin-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+                        <strong style="color: var(--text-main);">Suresh Reddy, Ops Head</strong><br>
+                        <span style="font-size: 0.8rem; color: var(--accent-primary);">LogiTech Warehousing</span>
+                    </div>
                 </div>
-                <p><span class="drop-cap">"</span>Managing compliance for a large logistics chain was nightmare until NR
-                    Consultancy stepped in. They handled our multi-state warehousing labor laws flawlessly. 100%
-                    recommended!"</p>
-                <div style="margin-top: 20px; font-style: italic; color: #ddd;">
-                    - Suresh Reddy, Operations Head<br><span
-                        style="color:var(--accent-color); font-size: 0.9rem;">LogiTech Warehousing Solutions</span>
-                </div>
-            </div>
-        </article>
 
-        <!-- Article 4: Hospital -->
-        <article class="magazine-article reverse reveal-on-scroll">
-            <div class="article-image">
-                <i class="fa-solid fa-hospital"
-                    style="font-size: 8rem; color: #dc3545; filter: drop-shadow(0 5px 15px rgba(220,53,69,0.3));"></i>
-            </div>
-            <div class="article-content">
-                <span class="article-category">Healthcare</span>
-                <h2>"Compliance Experts"</h2>
-                <div style="color: gold; font-size: 1.2rem; margin-bottom: 15px;">
-                    <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
-                        class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                <!-- Review 3 -->
+                <div class="service-card">
+                    <div style="color: gold; margin-bottom: 20px;">
+                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i>
+                    </div>
+                    <h3>"Compliance Experts"</h3>
+                    <p style="font-style: italic;">"Hospitals face unique regulatory challenges. NR Consultancy
+                        understood our specific needs regarding contract staff and nursing payroll immediately."</p>
+                    <div style="margin-top: 20px; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 20px;">
+                        <strong style="color: var(--text-main);">Dr. Anjali, Medical Dir.</strong><br>
+                        <span style="font-size: 0.8rem; color: var(--accent-primary);">City Care Hospitals</span>
+                    </div>
                 </div>
-                <p><span class="drop-cap">"</span>Hospitals face unique regulatory challenges. NR Consultancy understood
-                    our specific needs regarding contract staff and nursing payroll immediately. A reliable partner for
-                    any healthcare facility."</p>
-                <div style="margin-top: 20px; font-style: italic; color: #ddd;">
-                    - Dr. Anjali, Medical Director<br><span style="color:var(--accent-color); font-size: 0.9rem;">City
-                        Care Hospitals</span>
-                </div>
-            </div>
-        </article>
 
+            </div>
+        </div>
     </section>
 
-    <a href="https://wa.me/919182727927?text=I%20want%20to%20share%20my%20feedback." target="_blank"
-        class="whatsapp-btn">
-        <i class="fab fa-whatsapp"></i>
-    </a>
-
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">&copy; 2026 NR Consultancy.</div>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 

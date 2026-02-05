@@ -5,109 +5,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Services - NR Consultancy</title>
-
+    <meta name="description"
+        content="Comprehensive compliance services: ESIC registration, PF withdrawal, GST filing, and end-to-end payroll management.">
+    <!-- Styles -->
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- Background Video: Board Meeting (Unified Theme) -->
-    <video autoplay muted loop playsinline class="video-bg">
-        <source src="https://videos.pexels.com/video-files/3189154/3189154-hd_1920_1080_25fps.mp4" type="video/mp4">
-    </video>
-    <div class="overlay"></div>
-
-    <nav>
-        <a href="index.html" class="logo" style="text-decoration:none;">NR Consultancy</a>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="services.html" class="active">Services</a></li>
-            <li><a href="clients.html">Clients</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="testimonials.html">Testimonials</a></li>
-        </ul>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="container nav-content">
+            <a href="index.html" class="logo">NR <span>CONSULTANCY</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="services.html" class="active">Services</a>
+                <a href="clients.html">Clients</a>
+                <a href="testimonials.html">Testimonials</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <a href="contact.html" class="nav-cta">Book Consultation</a>
+            <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
     </nav>
 
-    <div class="official-links">
-        <a href="https://www.esic.in" target="_blank" class="official-btn">ESIC Portal</a>
-        <a href="https://www.epfindia.gov.in" target="_blank" class="official-btn">EPFO Portal</a>
-        <a href="https://www.gst.gov.in" target="_blank" class="official-btn">GST Portal</a>
-    </div>
+    <!-- Hero -->
+    <header class="hero" style="height: 50vh;">
+        <div class="hero-bg">
+            <video autoplay muted loop playsinline class="video-bg" style="opacity: 0.3;"
+                poster="assets/video/video-poster.jpg">
+                <source src="assets/video/board-meeting.mp4" type="video/mp4">
+            </video>
+            <div class="hero-overlay-gradient"></div>
+        </div>
+        <div class="container hero-content">
+            <h1 class="hero-title">Expert <span class="text-gradient">Solutions</span></h1>
+            <p class="hero-desc">End-to-End Payroll, Compliance Advisory, and New Business Setup services.</p>
+        </div>
+    </header>
 
-    <div class="static-content">
-        <h1>Our Core Services</h1>
-        <p>Comprehensive financial and compliance solutions.</p>
-    </div>
+    <!-- Services Grid -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="services-grid">
 
-    <!-- Magazine Style Services Feed -->
-    <section id="services-feed" class="magazine-layout">
+                <div class="service-card">
+                    <i class="fas fa-users-cog service-icon"></i>
+                    <h3>Labour Law Compliance</h3>
+                    <p>Registration & maintenance of registers under various labour laws. Handling inspections and
+                        notices efficiently.</p>
+                </div>
 
-        <!-- Article 1: Payroll -->
-        <article class="magazine-article reveal-on-scroll">
-            <div class="article-image">
-                <i class="fa-solid fa-file-invoice-dollar"
-                    style="font-size: 8rem; color: #007bff; filter: drop-shadow(0 5px 15px rgba(0,123,255,0.3));"></i>
-            </div>
-            <div class="article-content">
-                <span class="article-category">Payroll Management</span>
-                <h2>End-to-End Payroll</h2>
-                <p><span class="drop-cap">E</span>nsure accurate monthly payouts with our automated payroll solutions.
-                    We handle everything from basic salary computations to complex tax deductions.</p>
-                <ul class="article-details">
-                    <li><i class="fas fa-check"></i> Monthly Pay-slip Generation</li>
-                    <li><i class="fas fa-check"></i> PF & ESI Calculations</li>
-                    <li><i class="fas fa-check"></i> Tax Deducted at Source (TDS)</li>
-                </ul>
-            </div>
-        </article>
+                <div class="service-card">
+                    <i class="fas fa-file-contract service-icon"></i>
+                    <h3>ESIC & EPFO</h3>
+                    <p>Monthly contribution filings, employee registration, claims settlement, and dispute resolution.
+                    </p>
+                </div>
 
-        <!-- Article 2: Compliance Advisory -->
-        <article class="magazine-article reverse reveal-on-scroll">
-            <div class="article-image">
-                <i class="fa-solid fa-scale-balanced"
-                    style="font-size: 8rem; color: #ffc107; filter: drop-shadow(0 5px 15px rgba(255,193,7,0.3));"></i>
-            </div>
-            <div class="article-content">
-                <span class="article-category">Legal & Advisory</span>
-                <h2>Compliance Advisory</h2>
-                <p><span class="drop-cap">S</span>tay ahead of changing labour laws. Our experts provide specific
-                    actionable advice to keep your business penalty-free.</p>
-                <ul class="article-details">
-                    <li><i class="fas fa-check"></i> Labour Law Consultation</li>
-                    <li><i class="fas fa-check"></i> Audit Support & Representation</li>
-                    <li><i class="fas fa-check"></i> Policy Drafting & Review</li>
-                </ul>
-            </div>
-        </article>
+                <div class="service-card">
+                    <i class="fas fa-calculator service-icon"></i>
+                    <h3>Payroll Management</h3>
+                    <p>Accurate salary processing, payslip generation, tax deductions (TDS), and final settlement.</p>
+                </div>
 
-        <!-- Article 3: New Business -->
-        <article class="magazine-article reveal-on-scroll">
-            <div class="article-image">
-                <i class="fa-solid fa-briefcase"
-                    style="font-size: 8rem; color: #28a745; filter: drop-shadow(0 5px 15px rgba(40,167,69,0.3));"></i>
-            </div>
-            <div class="article-content">
-                <span class="article-category">Startup Support</span>
-                <h2>New Business Setup</h2>
-                <p><span class="drop-cap">S</span>tarting a new venture? We handle all the initial registrations
-                    required to get your business off the ground legally and quickly.</p>
-                <ul class="article-details">
-                    <li><i class="fas fa-check"></i> Shop & Establishment Act</li>
-                    <li><i class="fas fa-check"></i> MSME Registration</li>
-                    <li><i class="fas fa-check"></i> PAN & TAN Application</li>
-                </ul>
-            </div>
-        </article>
+                <div class="service-card">
+                    <i class="fas fa-store service-icon"></i>
+                    <h3>Shop & Establishment</h3>
+                    <p>Registration and renewal of Shop & Establishment license for commercial establishments.</p>
+                </div>
 
+                <div class="service-card">
+                    <i class="fas fa-percent service-icon"></i>
+                    <h3>GST Filing</h3>
+                    <p>Monthly and annual GST return filings, reconciliation, and advisory services.</p>
+                </div>
+
+                <div class="service-card">
+                    <i class="fas fa-briefcase service-icon"></i>
+                    <h3>Business Setup</h3>
+                    <p>Company incorporation, partnership deeds, and obtaining necessary trade licenses.</p>
+                </div>
+
+            </div>
+        </div>
     </section>
 
-    <a href="https://wa.me/919182727927?text=I%20need%20assistance%20with%20your%20services." target="_blank"
-        class="whatsapp-btn">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+    <!-- CTA -->
+    <section class="container" style="margin-bottom: 50px;">
+        <div class="cta-section">
+            <h2>Need a Custom Package?</h2>
+            <div class="hero-btns"
+                style="justify-content: center; opacity: 1; animation: none; transform: none; margin-top: 30px;">
+                <a href="contact.html" class="btn btn-primary">Request Quote</a>
+            </div>
+        </div>
+    </section>
 
+    <footer>
+        <div class="container">
+            <div class="footer-bottom">&copy; 2026 NR Consultancy.</div>
+        </div>
+    </footer>
     <script src="script.js"></script>
 </body>
 
