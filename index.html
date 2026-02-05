@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - NR Consultancy</title>
+    <!-- Matter.js -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Background Video: Board Meeting (Unified Theme) -->
+    <video autoplay muted loop playsinline class="video-bg">
+        <source src="https://videos.pexels.com/video-files/3189154/3189154-hd_1920_1080_25fps.mp4" type="video/mp4">
+    </video>
+    <div class="overlay"></div>
+
+    <!-- Navigation -->
+    <nav>
+        <a href="index.html" class="logo" style="text-decoration:none;">NR Consultancy</a>
+        <ul>
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="clients.html">Clients</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+        </ul>
+    </nav>
+
+    <!-- Official Portal Links -->
+    <div class="official-links">
+        <a href="https://www.esic.in" target="_blank" class="official-btn">ESIC Portal</a>
+        <a href="https://www.epfindia.gov.in" target="_blank" class="official-btn">EPFO Portal</a>
+        <a href="https://www.gst.gov.in" target="_blank" class="official-btn">GST Portal</a>
+    </div>
+
+    <!-- Static Center Content -->
+    <div class="static-content">
+        <h1>Welcome to <br> <span style="color:var(--primary-color)">NR Consultancy</span></h1>
+        <p>Your one-stop solution for all compliance and financial needs.</p>
+        <p style="font-size: 0.9rem; margin-top: 10px; opacity: 0.8;">Explore our services below!</p>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+        Scroll Down & Play
+        <i class="fas fa-chevron-down"></i>
+    </div>
+
+    <!-- Magazine Style Services Feed -->
+    <section id="services-feed" class="magazine-layout">
+
+        <!-- Article 1: ESIC -->
+        <article class="magazine-article reveal-on-scroll">
+            <div class="article-image">
+                <!-- Using Standard Free Icon -->
+                <i class="fa-solid fa-shield-alt"
+                    style="font-size: 8rem; color: #007bff; filter: drop-shadow(0 5px 15px rgba(0,123,255,0.3));"></i>
+            </div>
+            <div class="article-content">
+                <span class="article-category">Employee Welfare</span>
+                <h2>ESIC Compliance & Benefits</h2>
+                <p><span class="drop-cap">E</span>nsure your workforce is protected. We handle the complete lifecycle of
+                    <strong>Employee State Insurance (ESIC)</strong> compliance.
+                </p>
+                <ul class="article-details">
+                    <li><i class="fas fa-check"></i> Instant Employer Registration (Code No)</li>
+                    <li><i class="fas fa-check"></i> Monthly Contribution Filing & Challan Generation</li>
+                    <li><i class="fas fa-check"></i> Employee TIC/IP Number Generation</li>
+                    <li><i class="fas fa-check"></i> Handling Inspections & accident reports</li>
+                </ul>
+                <a href="services.html" class="read-more">Read Full Story <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+        <!-- Article 2: EPFO (Reversed Layout) -->
+        <article class="magazine-article reverse reveal-on-scroll">
+            <div class="article-image">
+                <i class="fa-solid fa-piggy-bank"
+                    style="font-size: 8rem; color: #28a745; filter: drop-shadow(0 5px 15px rgba(40,167,69,0.3));"></i>
+            </div>
+            <div class="article-content">
+                <span class="article-category">Financial Security</span>
+                <h2>EPFO: Securing Futures</h2>
+                <p><span class="drop-cap">T</span>he backbone of employee savings. Our <strong>Provident Fund
+                        (EPF)</strong> services ensure your organization remains compliant while securing your
+                    employees' financial future.</p>
+                <ul class="article-details">
+                    <li><i class="fas fa-check"></i> Voluntary & Mandatory Registration</li>
+                    <li><i class="fas fa-check"></i> KYC Updation (Aadhaar/PAN seeding)</li>
+                    <li><i class="fas fa-check"></i> Claim Settlements (Withdrawal/Transfer)</li>
+                    <li><i class="fas fa-check"></i> Annual Returns & UAN Generation</li>
+                </ul>
+                <a href="services.html" class="read-more">Explore Services <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+        <!-- Article 3: GST -->
+        <article class="magazine-article reveal-on-scroll">
+            <div class="article-image">
+                <i class="fa-solid fa-file-invoice"
+                    style="font-size: 8rem; color: #ffc107; filter: drop-shadow(0 5px 15px rgba(255,193,7,0.3));"></i>
+            </div>
+            <div class="article-content">
+                <span class="article-category">Business Growth</span>
+                <h2>GST: Seamless Taxation</h2>
+                <p><span class="drop-cap">N</span>avigate the complex world of <strong>Goods & Services Tax
+                        (GST)</strong> with precision. We turn compliance into a competitive advantage for your
+                    business.</p>
+                <ul class="article-details">
+                    <li><i class="fas fa-check"></i> New GST Registration & Amendments</li>
+                    <li><i class="fas fa-check"></i> GSTR-1 & GSTR-3B Monthly Filing</li>
+                    <li><i class="fas fa-check"></i> Input Tax Credit (ITC) Reconciliation</li>
+                    <li><i class="fas fa-check"></i> LUT Filing for Exporters</li>
+                </ul>
+                <a href="services.html" class="read-more">View Tax Solutions <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </article>
+
+    </section>
+
+    <!-- WhatsApp Button -->
+    <a href="https://wa.me/919182727927?text=Hello%20NR%20Consultancy,%20I%20would%20like%20to%20know%20more%20about%20your%20services."
+        target="_blank" class="whatsapp-btn">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

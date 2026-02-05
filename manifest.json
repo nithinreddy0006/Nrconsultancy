@@ -1,0 +1,2271 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Alexais - Digital Marketing Agency Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact - Section - Metform",
+            "screenshot": "screenshots\/contact-section-metform.jpg",
+            "source": "templates\/contact-section-metform.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/contact-section-metform\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-contact",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/home-2\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Brand Identity",
+            "screenshot": "screenshots\/brand-identity.jpg",
+            "source": "templates\/brand-identity.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/brand-identity\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Website Development",
+            "screenshot": "screenshots\/website-development.jpg",
+            "source": "templates\/website-development.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/website-development\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Work",
+            "screenshot": "screenshots\/our-work.jpg",
+            "source": "templates\/our-work.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/our-work\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Work Detail",
+            "screenshot": "screenshots\/our-work-detail.jpg",
+            "source": "templates\/our-work-detail.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/our-work-detail\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Careers",
+            "screenshot": "screenshots\/careers.jpg",
+            "source": "templates\/careers.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/careers\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "FAQ",
+            "screenshot": "screenshots\/faq.jpg",
+            "source": "templates\/faq.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/faq\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Our Team",
+            "screenshot": "screenshots\/our-team.jpg",
+            "source": "templates\/our-team.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/our-team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/404\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Insights",
+            "screenshot": "screenshots\/insights.jpg",
+            "source": "templates\/insights.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/insights\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/single-post\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/alexais.1onestrong.com\/template-kit\/contact-2\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Elementor",
+            "version": "3.20.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        },
+        {
+            "name": "Jeg Elementor Kit",
+            "version": "2.6.4",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegtheme"
+        },
+        {
+            "name": "MetForm",
+            "version": "3.8.6",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        }
+    ],
+    "images": [
+        {
+            "filename": "Logo-04.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Logo-04.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 12368,
+            "dimensions": [
+                661,
+                128
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logo-05.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Logo-05.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 12861,
+            "dimensions": [
+                661,
+                128
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "BG-06.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/BG-06-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                },
+                {
+                    "source": "templates\/our-work-detail.json",
+                    "name": "Our Work Detail"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                },
+                {
+                    "source": "templates\/insights.json",
+                    "name": "Insights"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 184677,
+            "dimensions": [
+                1280,
+                720
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Shape-09.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-09-800x512.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                },
+                {
+                    "source": "templates\/website-development.json",
+                    "name": "Website Development"
+                },
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                },
+                {
+                    "source": "templates\/our-work-detail.json",
+                    "name": "Our Work Detail"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                },
+                {
+                    "source": "templates\/insights.json",
+                    "name": "Insights"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 12964,
+            "dimensions": [
+                1750,
+                1120
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "BG-02.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/BG-02-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 20540,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-preview-2.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/logo-preview-2-800x337.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 11375,
+            "dimensions": [
+                992,
+                418
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-preview-10.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/logo-preview-10-800x337.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 9864,
+            "dimensions": [
+                992,
+                418
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-preview-3.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/logo-preview-3-800x337.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 11701,
+            "dimensions": [
+                992,
+                418
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-preview-4.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/logo-preview-4-800x337.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 10854,
+            "dimensions": [
+                992,
+                418
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-preview-6.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/logo-preview-6-800x337.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 10850,
+            "dimensions": [
+                992,
+                418
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-preview-8.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/logo-preview-8-800x337.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 8856,
+            "dimensions": [
+                992,
+                418
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "logo-preview-1.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/logo-preview-1-800x337.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 14022,
+            "dimensions": [
+                992,
+                418
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Shape-02.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-02.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                },
+                {
+                    "source": "templates\/website-development.json",
+                    "name": "Website Development"
+                },
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/insights.json",
+                    "name": "Insights"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 3282,
+            "dimensions": [
+                248,
+                113
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Shape-010.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-010-800x874.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 113969,
+            "dimensions": [
+                1000,
+                1093
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Shape-011.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-011-800x874.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 132739,
+            "dimensions": [
+                1000,
+                1093
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Shape-012.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-012-800x874.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 97566,
+            "dimensions": [
+                1000,
+                1093
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Shape-013.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-013-800x874.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 92446,
+            "dimensions": [
+                1000,
+                1093
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Alexaisjpg-01.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Alexaisjpg-01-800x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 37679,
+            "dimensions": [
+                1920,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Alexaisjpg-02.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Alexaisjpg-02-800x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 56081,
+            "dimensions": [
+                1920,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Alexaisjpg-03.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Alexaisjpg-03-800x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 58849,
+            "dimensions": [
+                1920,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Alexaisjpg-04.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Alexaisjpg-04-800x400.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 68235,
+            "dimensions": [
+                1920,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Porto-01.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/Porto-01-800x534.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/website-development.json",
+                    "name": "Website Development"
+                },
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                }
+            ],
+            "filesize": 100984,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logobrand-02.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Logobrand-02.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/website-development.json",
+                    "name": "Website Development"
+                },
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                }
+            ],
+            "filesize": 4622,
+            "dimensions": [
+                145,
+                145
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Shape-032.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/Shape-032.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/website-development.json",
+                    "name": "Website Development"
+                },
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 38516,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Porto-02.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/Porto-02-800x534.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/website-development.json",
+                    "name": "Website Development"
+                },
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                }
+            ],
+            "filesize": 108191,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logobrand-03.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Logobrand-03.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/website-development.json",
+                    "name": "Website Development"
+                },
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                }
+            ],
+            "filesize": 4509,
+            "dimensions": [
+                145,
+                145
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Porto-03.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/Porto-03-800x534.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/website-development.json",
+                    "name": "Website Development"
+                },
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                },
+                {
+                    "source": "templates\/our-work-detail.json",
+                    "name": "Our Work Detail"
+                }
+            ],
+            "filesize": 61021,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logobrand-04.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Logobrand-04.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/website-development.json",
+                    "name": "Website Development"
+                },
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                }
+            ],
+            "filesize": 2942,
+            "dimensions": [
+                145,
+                145
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Porto-04.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/Porto-04-800x534.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/website-development.json",
+                    "name": "Website Development"
+                },
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                }
+            ],
+            "filesize": 100790,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logobrand-05.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Logobrand-05.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/website-development.json",
+                    "name": "Website Development"
+                },
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                }
+            ],
+            "filesize": 6292,
+            "dimensions": [
+                145,
+                145
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Testimonial-07.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Testimonial-07.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 31804,
+            "dimensions": [
+                558,
+                558
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Testimonial-05.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Testimonial-05.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 26539,
+            "dimensions": [
+                558,
+                558
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Testimonial-01.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Testimonial-01.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 26555,
+            "dimensions": [
+                558,
+                558
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Testimonial-04.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Testimonial-04.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 37465,
+            "dimensions": [
+                558,
+                558
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Testimonial-03.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Testimonial-03.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 35147,
+            "dimensions": [
+                558,
+                558
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Testimonial-06.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Testimonial-06.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 27062,
+            "dimensions": [
+                558,
+                558
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Testimonial-02.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Testimonial-02.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 24580,
+            "dimensions": [
+                558,
+                558
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Alexaisjpg-05.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Alexaisjpg-05-800x798.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                },
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                },
+                {
+                    "source": "templates\/insights.json",
+                    "name": "Insights"
+                }
+            ],
+            "filesize": 235873,
+            "dimensions": [
+                1248,
+                1245
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Shape-021.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-021.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 33254,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Shape-025.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-025.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 28805,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Shape-023.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-023.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 23770,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Shape-024.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-024.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 34088,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Shape-022.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-022.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 21002,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "BG-09.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/BG-09-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                },
+                {
+                    "source": "templates\/website-development.json",
+                    "name": "Website Development"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 7813,
+            "dimensions": [
+                1280,
+                720
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Shape-026.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-026-800x250.png",
+            "templates": [
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                }
+            ],
+            "filesize": 317003,
+            "dimensions": [
+                1920,
+                600
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Shape-035.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/Shape-035-800x832.png",
+            "templates": [
+                {
+                    "source": "templates\/brand-identity.json",
+                    "name": "Brand Identity"
+                },
+                {
+                    "source": "templates\/faq.json",
+                    "name": "FAQ"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 123729,
+            "dimensions": [
+                1072,
+                1115
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Porto-05.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/Porto-05-800x534.png",
+            "templates": [
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                }
+            ],
+            "filesize": 118127,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logobrand-01.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Logobrand-01.png",
+            "templates": [
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                }
+            ],
+            "filesize": 3614,
+            "dimensions": [
+                145,
+                145
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Porto-06.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/Porto-06-800x534.png",
+            "templates": [
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                }
+            ],
+            "filesize": 158057,
+            "dimensions": [
+                1024,
+                683
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Logobrand-06.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Logobrand-06.png",
+            "templates": [
+                {
+                    "source": "templates\/our-work.json",
+                    "name": "Our Work"
+                }
+            ],
+            "filesize": 4196,
+            "dimensions": [
+                145,
+                145
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Portfolio-04.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Portfolio-04-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-work-detail.json",
+                    "name": "Our Work Detail"
+                }
+            ],
+            "filesize": 64739,
+            "dimensions": [
+                1500,
+                2250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "branding-03.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/branding-03-800x600.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-work-detail.json",
+                    "name": "Our Work Detail"
+                }
+            ],
+            "filesize": 28323,
+            "dimensions": [
+                1042,
+                782
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Portfolio-03.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Portfolio-03-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-work-detail.json",
+                    "name": "Our Work Detail"
+                }
+            ],
+            "filesize": 226613,
+            "dimensions": [
+                1500,
+                2250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "branding-01.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/branding-01-800x686.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-work-detail.json",
+                    "name": "Our Work Detail"
+                }
+            ],
+            "filesize": 34783,
+            "dimensions": [
+                913,
+                783
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "branding-05.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/branding-05-800x685.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-work-detail.json",
+                    "name": "Our Work Detail"
+                }
+            ],
+            "filesize": 40109,
+            "dimensions": [
+                914,
+                783
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "branding-04.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/branding-04-800x599.jpg",
+            "templates": [
+                {
+                    "source": "templates\/our-work-detail.json",
+                    "name": "Our Work Detail"
+                }
+            ],
+            "filesize": 56537,
+            "dimensions": [
+                1044,
+                782
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Alexaisjpg-07.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Alexaisjpg-07-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 258997,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Shape-015.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-015-800x829.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 68675,
+            "dimensions": [
+                1494,
+                1548
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Shape-014.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-014-800x829.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 52754,
+            "dimensions": [
+                1494,
+                1548
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "BG-08.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/BG-08-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                }
+            ],
+            "filesize": 139245,
+            "dimensions": [
+                1280,
+                720
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Teams-04.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Teams-04-800x867.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 209275,
+            "dimensions": [
+                1165,
+                1263
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Teams-02.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Teams-02-800x867.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 180266,
+            "dimensions": [
+                1165,
+                1263
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Teams-06.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Teams-06-800x867.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 227184,
+            "dimensions": [
+                1165,
+                1263
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Teams-07.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Teams-07-800x867.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 303477,
+            "dimensions": [
+                1165,
+                1263
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Teams-03.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Teams-03-800x867.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 209317,
+            "dimensions": [
+                1165,
+                1263
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "BG-010.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/BG-010-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                },
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 10246,
+            "dimensions": [
+                1280,
+                720
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Shape-031.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/Shape-031.png",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 35993,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Shape-030.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/Shape-030.png",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 31825,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Shape-033.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/Shape-033.png",
+            "templates": [
+                {
+                    "source": "templates\/careers.json",
+                    "name": "Careers"
+                }
+            ],
+            "filesize": 37294,
+            "dimensions": [
+                512,
+                512
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "Shape-027.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-027.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 3351,
+            "dimensions": [
+                248,
+                113
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Shape-028.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-028.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 3253,
+            "dimensions": [
+                248,
+                113
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Shape-029.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Shape-029.png",
+            "templates": [
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 3368,
+            "dimensions": [
+                248,
+                113
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "Teams-08.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/Teams-08-800x867.png",
+            "templates": [
+                {
+                    "source": "templates\/our-team.json",
+                    "name": "Our Team"
+                }
+            ],
+            "filesize": 284976,
+            "dimensions": [
+                1165,
+                1263
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "404-page.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/404-page-800x331.png",
+            "templates": [
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                }
+            ],
+            "filesize": 50313,
+            "dimensions": [
+                1344,
+                556
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "branding-09.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/branding-09-800x599.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 49978,
+            "dimensions": [
+                1044,
+                782
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "branding-08.jpg",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/03\/branding-08-800x599.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 35228,
+            "dimensions": [
+                1044,
+                782
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/collections\/9VNYMW7H8E"
+        },
+        {
+            "filename": "icon-01.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/icon-01.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 36744,
+            "dimensions": [
+                371,
+                371
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon-06.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/icon-06.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 40954,
+            "dimensions": [
+                371,
+                371
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon-05.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/icon-05.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 41243,
+            "dimensions": [
+                371,
+                371
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        },
+        {
+            "filename": "icon-03.png",
+            "thumbnail_url": "https:\/\/alexais.1onestrong.com\/wp-content\/uploads\/2024\/04\/icon-03.png",
+            "templates": [
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                }
+            ],
+            "filesize": 41331,
+            "dimensions": [
+                371,
+                371
+            ],
+            "image_source": "self_created",
+            "person_or_place": "no",
+            "image_urls": ""
+        }
+    ]
+}

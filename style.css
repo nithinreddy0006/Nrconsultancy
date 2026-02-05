@@ -1,0 +1,456 @@
+/* Core Styles for NR Consultancy */
+:root {
+    --primary-color: #007bff;
+    /* Bright Blue */
+    --secondary-color: #6c757d;
+    /* Grey */
+    --accent-color: #ffc107;
+    /* Amber */
+    --text-color: #ffffff;
+    --nav-bg: rgba(0, 0, 0, 0.85);
+    --overlay-color: rgba(0, 0, 0, 0.65);
+    --card-bg: rgba(255, 255, 255, 0.95);
+    --card-text: #333333;
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-main);
+    color: var(--text-color);
+    background-color: #1a1a1a;
+    overflow-x: hidden;
+    min-height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow-y: auto;
+    /* Enable vertical scroll */
+}
+
+/* Animations */
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes bounceArrow {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Background Video */
+.video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    object-fit: cover;
+    background: url('https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg') no-repeat center center/cover;
+    /* Constructive Fallback */
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--overlay-color);
+    z-index: -1;
+}
+
+.static-content {
+    animation: fadeInDown 1.5s ease-out;
+}
+
+.scroll-indicator {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    font-size: 0.9rem;
+    z-index: 5;
+    animation: bounceArrow 2s infinite;
+    pointer-events: none;
+}
+
+.scroll-indicator i {
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 5px;
+}
+
+/* Navigation */
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: var(--nav-bg);
+    padding: 1rem 2rem;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--text-color);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+    transition: color 0.3s;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+nav a:hover,
+nav a.active {
+    color: var(--primary-color);
+}
+
+/* Physics World Container */
+
+
+/* Magazine Layout */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+:root {
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Source Sans Pro', sans-serif;
+}
+
+#services-feed {
+    margin-top: 100vh;
+    padding: 100px 5%;
+    background-color: transparent;
+    /* Show video behind */
+    color: #fff;
+}
+
+.magazine-article {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-bottom: 120px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease, transform 1s ease;
+
+    /* rigorous glassmorphism backing for readability */
+    background: rgba(0, 0, 0, 0.4);
+    padding: 40px;
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.magazine-article.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.magazine-article.reverse {
+    flex-direction: row-reverse;
+}
+
+/* Image Side */
+.article-image {
+    flex: 1;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.3);
+    transform: rotate(-2deg);
+    transition: transform 0.3s;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.magazine-article:hover .article-image {
+    transform: rotate(0deg) scale(1.02);
+}
+
+.article-image img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.2));
+}
+
+/* Content Side */
+.article-content {
+    flex: 1;
+    padding: 20px;
+    color: #fff;
+}
+
+.article-category {
+    font-family: var(--font-body);
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 3px;
+    color: var(--accent-color);
+    /* Pop color */
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.article-content h2 {
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    margin-bottom: 25px;
+    line-height: 1.1;
+    color: #fff;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.article-content p {
+    font-family: var(--font-body);
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #eee;
+    margin-bottom: 25px;
+}
+
+.drop-cap {
+    float: left;
+    font-family: var(--font-heading);
+    font-size: 3.5rem;
+    line-height: 0.8;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-left: 3px;
+    color: var(--accent-color);
+}
+
+.article-details {
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+.article-details li {
+    font-family: var(--font-body);
+    margin-bottom: 10px;
+    font-size: 1rem;
+    color: #ddd;
+}
+
+.article-details i {
+    color: var(--accent-color);
+    margin-right: 10px;
+}
+
+.read-more {
+    display: inline-block;
+    padding: 12px 30px;
+    background: #1a1a1a;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+    transition: background 0.3s;
+}
+
+.read-more:hover {
+    background: var(--primary-color);
+}
+
+@media (max-width: 900px) {
+
+    .magazine-article,
+    .magazine-article.reverse {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .article-image {
+        transform: rotate(0);
+        width: 100%;
+        height: auto;
+    }
+
+    .article-content h2 {
+        font-size: 2.5rem;
+    }
+
+    .article-details {
+        text-align: left;
+        display: inline-block;
+    }
+}
+
+.floating-video {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    pointer-events: none;
+    /* Prevent video controls interference */
+}
+
+/* Official Links Bar */
+.official-links {
+    position: fixed;
+    top: 80px;
+    /* Below nav */
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 1000;
+}
+
+.official-btn {
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 0.8rem;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: all 0.3s;
+    backdrop-filter: blur(5px);
+}
+
+.official-btn:hover {
+    background: var(--primary-color);
+    border-color: var(--primary-color);
+}
+
+/* WhatsApp Button */
+.whatsapp-btn {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background-color: #25D366;
+    color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 2000;
+    transition: transform 0.3s;
+    text-decoration: none;
+}
+
+.whatsapp-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Intro/Static Content (Behind physics layer) */
+.static-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    /* Below physics layer */
+    width: 80%;
+}
+
+.static-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.static-content p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    nav ul {
+        margin-top: 10px;
+        font-size: 0.8rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .static-content h1 {
+        font-size: 2rem;
+    }
+
+    .official-links {
+        top: auto;
+        bottom: 100px;
+        right: 50%;
+        transform: translateX(50%);
+        width: 100%;
+        justify-content: center;
+    }
+}
