@@ -17,31 +17,18 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            overflow: hidden;
-            /* Lock scroll for focused experience */
+            overflow-y: auto;
+            /* Allow scroll on mobile */
+            overflow-x: hidden;
+        }
+
+        .booking-split-layout {
+            /* Handled in style.css */
         }
 
         .hero-bg {
             position: fixed;
-            /* Fixed background */
-        }
-
-        .grain-overlay {
-            z-index: 1;
-        }
-
-        .booking-card {
-            background: var(--bg-card);
-            border: 1px solid var(--accent-primary);
-            padding: 40px;
-            border-radius: 20px;
-            width: 90%;
-            max-width: 500px;
-            position: relative;
-            box-shadow: 0 0 50px rgba(0, 240, 255, 0.15);
-            z-index: 10;
-            backdrop-filter: blur(20px);
-            animation: fadeUp 0.8s ease-out;
+            z-index: -1;
         }
 
         .close-btn {
@@ -70,35 +57,66 @@
     </div>
     <div class="grain-overlay"></div>
 
-    <!-- Booking Card -->
-    <div class="booking-card">
-        <a href="index.html" class="close-btn"><i class="fas fa-times"></i></a>
-        <h2 class="modal-title">Book <span class="text-gradient">Consultation</span></h2>
-        <p style="text-align: center; color: var(--text-muted); margin-bottom: 20px;">Fill the form to start a WhatsApp
-            chat with our experts.</p>
+    <!-- Split Layout Container -->
+    <div class="booking-split-layout">
 
-        <form id="bookingFormPage">
-            <div class="form-group">
-                <label>Your Name</label>
-                <input type="text" class="form-input" id="pageName" placeholder="John Doe" required autofocus>
-            </div>
-            <div class="form-group">
-                <label>Mobile Number</label>
-                <input type="tel" class="form-input" id="pageMobile" placeholder="+91 98765 43210" required>
-            </div>
-            <div class="form-group">
-                <label>Purpose of Consultation</label>
-                <select class="form-select" id="pagePurpose">
-                    <option value="General Inquiry">General Inquiry</option>
-                    <option value="ESIC Registration">ESIC Registration/Compliance</option>
-                    <option value="EPFO Services">EPFO Services</option>
-                    <option value="GST Filing">GST Filing</option>
-                    <option value="Payroll Management">Payroll Management</option>
-                    <option value="Business Setup">New Business Setup</option>
-                </select>
-            </div>
-            <button type="submit" class="btn-submit">Start WhatsApp Chat <i class="fab fa-whatsapp"></i></button>
-        </form>
+        <!-- Left Side: Trust & Value -->
+        <div class="booking-info">
+            <h5
+                style="color: var(--accent-primary); letter-spacing: 2px; text-transform: uppercase; font-size: 0.9rem; margin-bottom: 10px;">
+                Exclusive Consultation</h5>
+            <h1>Compliance <br>Simplified.</h1>
+            <p class="subtext">Join 100+ businesses who automated their ESIC, EPFO, and GST compliance with NR
+                Consultancy.</p>
+
+            <ul class="trust-list">
+                <li><i class="fas fa-check"></i> <span><strong>Zero Penalty Record</strong> for all active
+                        clients.</span></li>
+                <li><i class="fas fa-shield-alt"></i> <span><strong>6+ Years</strong> of compliance expertise.</span>
+                </li>
+                <li><i class="fas fa-hospital"></i> <span>Specialized in <strong>Manufacturing &
+                            Hospitals</strong>.</span></li>
+                <li><i class="fas fa-rocket"></i> <span><strong>24Hr Response</strong> guarantee for audits.</span></li>
+            </ul>
+        </div>
+
+        <!-- Right Side: The Form -->
+        <div class="booking-form-container">
+            <a href="index.html" class="close-btn"><i class="fas fa-times"></i></a>
+            <h2 class="modal-title" style="margin-bottom: 10px;">Start <span class="text-gradient">Discussion</span>
+            </h2>
+            <p style="color: var(--text-muted); margin-bottom: 30px; font-size: 0.95rem;">Fill details to instantly open
+                WhatsApp chat.</p>
+
+            <form id="bookingFormPage">
+                <div class="form-group">
+                    <label>Your Name</label>
+                    <input type="text" class="form-input" id="pageName" placeholder="e.g. Rahul Sharma" required
+                        autofocus>
+                </div>
+                <div class="form-group">
+                    <label>Mobile Number</label>
+                    <input type="tel" class="form-input" id="pageMobile" placeholder="+91 98765 43210" required>
+                </div>
+                <div class="form-group">
+                    <label>Consultation Topic</label>
+                    <select class="form-select" id="pagePurpose">
+                        <option value="General Inquiry">General Inquiry</option>
+                        <option value="ESIC Registration">ESIC Registration/Compliance</option>
+                        <option value="EPFO Services">EPFO Services</option>
+                        <option value="GST Filing">GST Filing</option>
+                        <option value="Payroll Management">Payroll Management</option>
+                        <option value="Business Setup">New Business Setup</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn-submit" style="margin-top: 10px; font-weight: 600;">
+                    Start WhatsApp Chat <i class="fab fa-whatsapp" style="margin-left: 8px;"></i>
+                </button>
+                <p style="text-align: center; color: var(--text-muted); font-size: 0.8rem; margin-top: 15px;">
+                    <i class="fas fa-lock"></i> Your data is secure & confidential.
+                </p>
+            </form>
+        </div>
     </div>
 
     <script src="main.js"></script>
