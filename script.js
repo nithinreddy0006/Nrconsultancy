@@ -42,6 +42,57 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // --- Consultation Modal Logic ---
+    const modal = document.getElementById('bookingModal');
+    const closeBtn = document.getElementById('closeModal');
+    const bookingForm = document.getElementById('bookingForm');
+
+    // Open Modal on "Book Consultation" clicks
+    // Note: We use e.preventDefault() to stop the default link behavior
+    const bookBtns = document.querySelectorAll('.nav-cta, .btn-primary');
+
+    bookBtns.forEach(btn => {
+        if (btn.innerText.includes('Book') || btn.innerText.includes('Consultation')) {
+            btn.addEventListener('click', (e) => {
+                e.preventDefault();
+                modal.classList.add('active');
+            });
+        }
+    });
+
+    // Close Modal
+    if (closeBtn) {
+        closeBtn.addEventListener('click', () => {
+            modal.classList.remove('active');
+        });
+    }
+
+    // Close on clicking outside
+    window.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.classList.remove('active');
+        }
+    });
+
+    // Handle Form Submit
+    if (bookingForm) {
+        bookingForm.addEventListener('submit', (e) => {
+            e.preventDefault();
+
+            const name = document.getElementById('userName').value;
+            const mobile = document.getElementById('userMobile').value;
+            const purpose = document.getElementById('userPurpose').value;
+
+            // Format WhatsApp Message
+            const message = `*New Lead from Website*%0A%0AName: ${name}%0AMobile: ${mobile}%0APurpose: ${purpose}`;
+            const whatsappUrl = `https://wa.me/919182727927?text=${message}`;
+
+            // Redirect
+            window.open(whatsappUrl, '_blank');
+            modal.classList.remove('active');
+        });
+    }
+
     // --- Scroll Reveal Animation ---
     const observerOptions = {
         threshold: 0.1,
